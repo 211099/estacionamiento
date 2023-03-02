@@ -19,8 +19,7 @@ import java.util.concurrent.Semaphore;
 
 public class VehiculoController implements Initializable, Observer {
 
-    @FXML
-    private Label lbentrada;
+
     @FXML
     private Label lb1;
     @FXML
