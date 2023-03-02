@@ -1,5 +1,5 @@
 
-package concurrencia;
+package com.example.estacionamientoc2;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -17,7 +17,7 @@ public class VehiculoConcurrencia extends Application{
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent proyecto = FXMLLoader.load(getClass().getResource("VistaEstacionamiento.fxml"));
+        Parent proyecto = FXMLLoader.load(getClass().getResource("hello-view.fxml"));
         Scene estacionamiento = new Scene(proyecto);
         primaryStage.setTitle("Estacionamiento");
         primaryStage.setScene(estacionamiento);

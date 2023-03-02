@@ -7,8 +7,8 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.input.MouseEvent;
-import concurrencia.Models.CarrosTasks;
-import concurrencia.Models.Estacionamiento;
+import com.example.estacionamientoc2.models.CarrosTasks;
+import com.example.estacionamientoc2.models.Estacionamiento;
 
 import java.net.URL;
 import java.util.Observable;
